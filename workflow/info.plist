@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>multigeneris.alfred.workflow.goldenratio</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>CFB3E1F7-0152-46ED-9098-CE482BD3E7AE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>81EA1A5B-F0F9-4895-9AEE-8FF97AD1C6CD</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>44A723AB-4BD0-4706-924C-8F9ACADFC943</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Sven Bischoff</string>
+	<key>description</key>
+	<string>This workflow calculates the longer and shorter side of the golden ratio for any given number.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>GoldenRatio</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>81EA1A5B-F0F9-4895-9AEE-8FF97AD1C6CD</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>4</integer>
+				<key>keyword</key>
+				<string>gr</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Calculating...</string>
+				<key>script</key>
+				<string>./gr.sh "{query}"</string>
+				<key>subtext</key>
+				<string>Get longer part of golden ratio</string>
+				<key>title</key>
+				<string>Golden Ratio</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>CFB3E1F7-0152-46ED-9098-CE482BD3E7AE</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>Value has been copied to clipboard</string>
+				<key>title</key>
+				<string>Golden Ratio</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>44A723AB-4BD0-4706-924C-8F9ACADFC943</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>OVERVIEW:
+
+This workflow calculates the longer and shorter side of the golden ratio for any given integer.
+
+
+USAGE:
+
+Use the keyword ‚gr’ followed by an integer to get the corresponding shorter and longer side of the golden ratio which then can be selected and copied to the clipboard pressing ‚Enter‘.</string>
+	<key>uidata</key>
+	<dict>
+		<key>44A723AB-4BD0-4706-924C-8F9ACADFC943</key>
+		<dict>
+			<key>ypos</key>
+			<real>200</real>
+		</dict>
+		<key>81EA1A5B-F0F9-4895-9AEE-8FF97AD1C6CD</key>
+		<dict>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>CFB3E1F7-0152-46ED-9098-CE482BD3E7AE</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://multigeneris.org</string>
+</dict>
+</plist>
