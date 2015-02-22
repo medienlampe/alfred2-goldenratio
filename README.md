@@ -1,4 +1,4 @@
-# GoldenRatio Workflow for Alfred 2 <img src="workflow/icon.png" width="50px" />
+# GoldenRatio Workflow for Alfred 2 <img src="workflow/icon.png" width="32px" />
 
 This workflow calculates the longer and shorter side of the golden ratio for any given number.
 
@@ -6,11 +6,11 @@ This workflow calculates the longer and shorter side of the golden ratio for any
 
 ## Install
 
-Download the workflow (), then open it to install.
+Download the [workflow](https://github.com/medienlampe/alfred2-goldenratio/raw/master/GoldenRatio.alfredworkflow), then open it to install.
 
 ## Usage
 
-Use the keyword 'g'’ followed by an integer to get the corresponding shorter and longer side of the golden ratio which then can be selected and copied to the clipboard pressing 'Enter'.
+Use the keyword 'g' followed by an integer to get the corresponding shorter and longer side of the golden ratio which then can be selected and copied to the clipboard pressing 'Enter'.
 
 ## Contributing
 
