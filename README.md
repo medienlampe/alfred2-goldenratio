@@ -10,7 +10,7 @@ Download the [workflow](https://github.com/medienlampe/alfred2-goldenratio/raw/m
 
 ## Usage
 
-Use the keyword 'g' followed by an integer to get the corresponding shorter and longer side of the golden ratio which then can be selected and copied to the clipboard pressing 'Enter'.
+Use the keyword 'gr' followed by an integer to get the corresponding shorter and longer side of the golden ratio which then can be selected and copied to the clipboard pressing 'Enter'.
 
 ## Contributing
 
