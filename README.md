@@ -6,7 +6,7 @@ This workflow calculates the longer and shorter side of the golden ratio for any
 
 ## Install
 
-Download the workflow (https://github.com/johnthepink/alfred2-basecamp/raw/master/alfred2-basecamp.alfredworkflow), then open it to install.
+Download the workflow (), then open it to install.
 
 ## Usage
 
