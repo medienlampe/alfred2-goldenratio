@@ -14,16 +14,16 @@ Use the keyword 'gr' followed by an integer to get the corresponding shorter and
 
 ## Version History
 
-#2.0
+# 2.0
 
 - adds gr+ and gr- to return the corresponding shorter or longer side in a golden ratio for the given value
 
-#1.1
+# 1.1
 
 - Removed title line because it's not adding any value (thanks Florian!)
 - Cleanup
 
-#1.0
+# 1.0
 
 - First Release
 
